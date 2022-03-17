@@ -1,0 +1,28 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package ejercicio_1;
+
+/**
+ *
+ * @author HP
+ */
+public class Ejercicio_1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Person persona = new Person("edson","aldea vista hermosa");
+        System.out.println(persona.toString());
+
+        Student estudiante = new Student("javier", "San pedro", "programacion", 1, 600.00);
+        System.out.println(estudiante.toString());
+        Staff seguridad = new Staff("Inbacoop", 500.00, "EdsonJ", "San juan");
+        System.out.println(seguridad);        
+
+
+    }
+}
